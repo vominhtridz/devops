@@ -1,0 +1,34 @@
+name: Deploy Frontend to Render
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'frontend/**' # CHỈ KÍCH HOẠT khi có thay đổi trong thư mục frontend/
+      - '.github/workflows/frontend_deploy.yml'
+
+jobs:
+  deploy_frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # (Tùy chọn) CI - Build/Test Frontend nếu cần
+      - name: Install dependencies and Build Frontend
+        uses: actions/setup-node@v4
+        with:
+          node-version: '14.21.3'
+      - run: |
+          cd frontend
+          npm install
+          npm run build # Lệnh build Frontend của bạn
+        
+      - name: Deploy Frontend to Render
+        uses: render-examples/deploy-action@v1
+        with:
+          api-key: ${{ secrets.RENDER_API_KEY }}
+          service-id: srv-d4nqvjer433s73eajslg
+          # type: static (Nếu dịch vụ là Static Site)
+          # type: web
