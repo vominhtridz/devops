@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { Route, Link } from 'react-router-dom'
+import DefaultAvatar from "..//default_avatar.jpg";
 
 import { useDispatch, useSelector } from 'react-redux'
 import { useAlert } from 'react-alert'
@@ -53,7 +54,7 @@ const Header = () => {
 
                                 <figure className="avatar avatar-nav">
                                     <img
-                                        src={user.avatar && user.avatar.url}
+                                        src={user.avatar || DefaultAvatar}
                                         alt={user && user.name}
                                         className="rounded-circle"
                                     />
