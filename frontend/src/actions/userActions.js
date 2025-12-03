@@ -103,9 +103,14 @@ export const loadUser = () => async (dispatch) => {
         })
 
     } catch (error) {
+        // KIỂM TRA TÍNH HỢP LỆ CỦA PHẢN HỒI LỖI TRƯỚC KHI TRUY CẬP
+        const errorMessage = (error.response && error.response.data && error.response.data.message) 
+            ? error.response.data.message 
+            : error.message || 'Lỗi không xác định khi tải người dùng'; // Fallback nếu không có message
+
         dispatch({
             type: LOAD_USER_FAIL,
-            payload: error.response.data.message
+            payload: errorMessage
         })
     }
 }
