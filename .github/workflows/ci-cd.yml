@@ -1,0 +1,86 @@
+name: Fullstack CI/CD
+
+on:
+  push:
+    branches:
+      - main # Chạy khi push code vào nhánh main
+
+jobs:
+  # === Job 1: Build và Test (CI) ===
+  build_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Thiết lập Node.js 14.21.3 cho cả Backend và Frontend
+      - name: Set up Node.js 14.21.3
+        uses: actions/setup-node@v4
+        with:
+          node-version: '14.21.3'
+
+      # --- Backend CI ---
+      - name: Install and Test Backend
+        run: |
+          cd backend
+          npm install
+          # npm test # Bỏ comment nếu bạn có test
+        working-directory: ./backend
+
+      # --- Frontend Build ---
+      - name: Install and Build Frontend
+        run: |
+          cd frontend
+          npm install
+          npm run build # Lệnh build React của bạn (thường tạo ra thư mục 'build')
+        working-directory: ./frontend
+      
+      # Upload thư mục build của Frontend để sử dụng trong job Deploy
+      - name: Upload Frontend Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-build
+          path: frontend/build
+          retention-days: 1 # Thời gian lưu trữ artifact
+
+  # === Job 2: Deploy (CD) ===
+  deploy:
+    needs: build_and_test # Đảm bảo job này chỉ chạy khi build_and_test thành công
+    runs-on: ubuntu-latest
+    environment: production # Môi trường triển khai (tuỳ chọn)
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      # Download thư mục build của Frontend từ job trước
+      - name: Download Frontend Build Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: frontend-build
+          path: frontend/build
+
+      # --- Deploy Frontend (Static Site) ---
+      # **LƯU Ý:** Bạn cần thiết lập Render Static Site Service riêng.
+      # Render có thể tự động deploy Static Site từ GitHub.
+      # Nếu bạn muốn deploy từ Actions, hãy dùng cách thủ công (ví dụ: rsync, sftp) hoặc
+      # deploy cùng với Backend nếu Node.js server của bạn phục vụ static files (tùy kiến trúc).
+
+      # Phương pháp thay thế: Chuyển thư mục build của Frontend vào thư mục Backend
+      # để Node.js server phục vụ nó (thường là cách dễ nhất cho full-stack đơn giản)
+      - name: Move Frontend Build to Backend
+        run: |
+          rm -rf backend/public # Xóa thư mục public cũ nếu cần
+          mkdir -p backend/public
+          mv frontend/build/* backend/public/
+
+      # --- Deploy Backend (Node.js Web Service) ---
+      # Sử dụng GitHub Action cho Render Deploy (cần RENDER_API_KEY và Service ID)
+      # Đảm bảo đã đặt 'permissions: deployments: write' ở đầu file workflow nếu cần dùng GitHub Deployment API
+      - name: Deploy Backend to Render
+        uses: JorgeLNJunior/render-deploy@v1.4.6
+        with:
+          service_id: ${{ secrets.RENDER_BACKEND_SERVICE_ID }}
+          api_key: ${{ secrets.RENDER_API_KEY }}
+          # Bạn có thể thêm wait_deploy: true để chờ quá trình triển khai hoàn tất
