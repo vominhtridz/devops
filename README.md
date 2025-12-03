@@ -2,9 +2,9 @@
 # Đề tài: Website bán hàng trực tuyến
 <h3>Link demo: https://taphoashop.herokuapp.com/</h3>
 <h3>Thành viên nhóm: </h3>
-<h6>+ Võ Hữu Thắng</h6>
-<h6>+ Nguyễn Văn Hải Long</h6>
-<h6>+ Nguyễn Quốc Thắng</h6>
+<h6>+ Võ minh trí</h6>
+<h6>+ Quang</h6>
+<h6>+ Nhất</h6>
 
 Phiên bản Node.js sử dụng là Node.js: [v16.13.1](https://nodejs.org/dist/v16.13.1/node-v16.13.1-x86.msi) (hoặc phiên bản v16 cùng cấp)
 

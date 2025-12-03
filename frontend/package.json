@@ -58,5 +58,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:4000/"
+  "proxy": "https://backend-devop.onrender.com/",
+  "engines": {
+    "node": "14.21.3" 
+  }
 }
