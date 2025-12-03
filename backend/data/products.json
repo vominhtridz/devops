@@ -1,258 +1,299 @@
 [
-    {
-        "name": "SanDisk Ultra 128GB SDXC UHS-I Memory Card up to 80MB/s",
-        "price": "45.89",
-        "description": "Ultra-fast cards (2) to take better pictures and Full HD videos (1) with your compact to mid-range point-and-shoot cameras and camcorders...",
-        "ratings": 4.5,
-        "images": [
-            {
-                "public_id": "products/sandisk_card",
-                "url": "https://images.unsplash.com/photo-1626810140232-a39284201886?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Electronics",
-        "seller": "Ebay",
-        "stock": 50,
-        "numOfReviews": 32,
-        "reviews": []
-    },
-    {
-        "name": "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
-        "price": "299.00 ",
-        "description": "That’s the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you’re most passionate about...",
-        "ratings": 4.5,
-        "images": [
-            {
-                "public_id": "products/bose_qc35ii_headphones",
-                "url": "https://images.unsplash.com/photo-1546435035-ad69485b0185?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Headphones",
-        "seller": "Amazon",
-        "stock": 11,
-        "numOfReviews": 112,
-        "reviews": []
-    },
-    {
-        "name": "Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray ",
-        "price": "949.99",
-        "description": "Stunning 13.3-inch Retina display with True Tone technology, Backlit Magic Keyboard and Touch ID...",
-        "ratings": 4.9,
-        "images": [
-            {
-                "public_id": "products/macbook_air",
-                "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Laptops",
-        "seller": "Amazon",
-        "stock": 0,
-        "numOfReviews": 56,
-        "reviews": []
-    },
-    
-    {
-        "name": "Táo Fuji Nhật Bản (Túi 1kg)",
-        "price": "125.00",
-        "description": "Táo Fuji nhập khẩu từ Nhật, giòn, ngọt, thơm tự nhiên. Thích hợp ăn sống hoặc làm salad.",
-        "ratings": 5,
-        "images": [
-            {
-                "public_id": "products/fuji_apple",
-                "url": "https://images.unsplash.com/photo-1619546815777-6745f4705504?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Rau-Củ-Trái cây",
-        "seller": "FreshFarm VN",
-        "stock": 300,
-        "numOfReviews": 15,
-        "reviews": []
-    },
-    {
-        "name": "Bông Cải Xanh Hữu Cơ (500g)",
-        "price": "45.00",
-        "description": "Bông cải xanh (Súp lơ xanh) hữu cơ, tươi sạch, giàu Vitamin C và K. Lý tưởng cho các món hấp hoặc xào.",
-        "ratings": 4.8,
-        "images": [
-            {
-                "public_id": "products/organic_broccoli",
-                "url": "https://images.unsplash.com/photo-1581451815121-82782e4f0a0c?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Rau-Củ-Trái cây",
-        "seller": "GreenFoods",
-        "stock": 150,
-        "numOfReviews": 5,
-        "reviews": []
-    },
-    {
-        "name": "Thịt Ba Chỉ Heo Tươi (500g)",
-        "price": "89.50",
-        "description": "Thịt ba chỉ heo tươi, đã qua kiểm dịch, thích hợp cho các món kho, luộc hoặc nướng.",
-        "ratings": 4.6,
-        "images": [
-            {
-                "public_id": "products/pork_belly",
-                "url": "https://images.unsplash.com/photo-1565597951664-966504a74284?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Thịt-Trứng-Hải sản",
-        "seller": "MeatMaster",
-        "stock": 100,
-        "numOfReviews": 40,
-        "reviews": []
-    },
-    {
-        "name": "Tôm Sú Đông Lạnh (Size L, 1kg)",
-        "price": "350.00",
-        "description": "Tôm sú tươi, cấp đông ngay sau khi đánh bắt, giữ nguyên độ ngọt và chất dinh dưỡng.",
-        "ratings": 4.9,
-        "images": [
-            {
-                "public_id": "products/frozen_shrimp",
-                "url": "https://images.unsplash.com/photo-1582046808759-4f762a4d9302?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Thịt-Trứng-Hải sản",
-        "seller": "OceanDelight",
-        "stock": 80,
-        "numOfReviews": 25,
-        "reviews": []
-    },
-    {
-        "name": "Xúc Xích Heo Xông Khói Tiệt Trùng (500g)",
-        "price": "72.00",
-        "description": "Xúc xích xông khói theo công nghệ Đức, chế biến sẵn, dùng ngay hoặc chiên nướng.",
-        "ratings": 4.3,
-        "images": [
-            {
-                "public_id": "products/smoked_sausage",
-                "url": "https://images.unsplash.com/photo-1542475727-463e26487955?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Thực phẩm chế biến",
-        "seller": "Gourmet Foods",
-        "stock": 220,
-        "numOfReviews": 18,
-        "reviews": []
-    },
-    {
-        "name": "Kem Vani Hộp Lớn (1 Lít)",
-        "price": "110.00",
-        "description": "Kem hương Vani tự nhiên, béo ngậy, giải khát tuyệt vời.",
-        "ratings": 4.7,
-        "images": [
-            {
-                "public_id": "products/vanilla_icecream",
-                "url": "https://images.unsplash.com/photo-1580918451893-ecf4d9c79e6f?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Thực phẩm đông lạnh",
-        "seller": "IceWorld",
-        "stock": 150,
-        "numOfReviews": 50,
-        "reviews": []
-    },
-    {
-        "name": "Nước Mắm Cá Cơm Truyền Thống (500ml)",
-        "price": "65.00",
-        "description": "Nước mắm nhỉ cốt cá cơm, hương vị đậm đà truyền thống.",
-        "ratings": 4.9,
-        "images": [
-            {
-                "public_id": "products/fish_sauce",
-                "url": "https://images.unsplash.com/photo-1601662520637-2e1d7d0a6c0b?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Thực phẩm Khô - Gia Vị",
-        "seller": "VietSpice",
-        "stock": 400,
-        "numOfReviews": 60,
-        "reviews": []
-    },
-    {
-        "name": "Bánh Quy Bơ Đan Mạch Hộp Thiếc (454g)",
-        "price": "95.00",
-        "description": "Bánh quy bơ cao cấp, thích hợp làm quà tặng hoặc ăn vặt.",
-        "ratings": 4.4,
-        "images": [
-            {
-                "public_id": "products/danish_butter_cookies",
-                "url": "https://images.unsplash.com/photo-1594967396113-ec846c4f09d7?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Bánh kẹo - Đồ ăn vặt",
-        "seller": "SweetHouse",
-        "stock": 180,
-        "numOfReviews": 30,
-        "reviews": []
-    },
-    {
-        "name": "Sữa Tươi Tiệt Trùng Không Đường (1 Lít)",
-        "price": "35.50",
-        "description": "Sữa tươi nguyên chất 100%, không đường, giàu canxi.",
-        "ratings": 4.7,
-        "images": [
-            {
-                "public_id": "products/fresh_milk",
-                "url": "https://images.unsplash.com/photo-1554992759-b1d51a66e4a2?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Sữa - Sản phẩm từ sữa",
-        "seller": "DairyFarm",
-        "stock": 500,
-        "numOfReviews": 80,
-        "reviews": []
-    },
-    {
-        "name": "Nước Ngọt Coca-Cola Zero Đường (Thùng 24 lon)",
-        "price": "220.00",
-        "description": "Coca-Cola không calo, không đường, giải khát tối đa.",
-        "ratings": 4.6,
-        "images": [
-            {
-                "public_id": "products/coca_cola_zero",
-                "url": "https://images.unsplash.com/photo-1582572522770-5c6219080db1?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Đồ uống - Giải khát",
-        "seller": "BevCorp",
-        "stock": 350,
-        "numOfReviews": 45,
-        "reviews": []
-    },
-    {
-        "name": "Sữa Tắm Dưỡng Ẩm Trắng Da Hương Hoa Hồng (1.2 Lít)",
-        "price": "145.00",
-        "description": "Sữa tắm với tinh chất hoa hồng, làm sạch sâu và dưỡng ẩm cho da mềm mịn.",
-        "ratings": 4.8,
-        "images": [
-            {
-                "public_id": "products/rose_shower_gel",
-                "url": "https://images.unsplash.com/photo-1594470984180-87a748c5b96c?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Hóa Mỹ phẩm",
-        "seller": "BeautyPlus",
-        "stock": 250,
-        "numOfReviews": 70,
-        "reviews": []
-    },
-    {
-        "name": "Kem Chống Nắng SPF 50+ PA++++",
-        "price": "250.00",
-        "description": "Bảo vệ da khỏi tia UVA/UVB cường độ cao, không gây nhờn rít.",
-        "ratings": 4.9,
-        "images": [
-            {
-                "public_id": "products/sunscreen_spf50",
-                "url": "https://images.unsplash.com/photo-1582234033100-84c483d2581c?fit=crop&w=400&h=400&q=80"
-            }
-        ],
-        "category": "Chăm sóc cá nhân",
-        "seller": "SkinCare Pro",
-        "stock": 190,
-        "numOfReviews": 90,
-        "reviews": []
-    }
+  {
+    "name": "SanDisk Ultra 128GB SDXC UHS-I Memory Card up to 80MB/s",
+    "price": "45.89",
+    "description": "Ultra-fast cards (2) to take better pictures and Full HD videos (1) with your compact to mid-range point-and-shoot cameras and camcorders...",
+    "ratings": 4.5,
+    "images": [
+      {
+        "public_id": "products/sandisk_sdxc_card",
+        "url": "https://picsum.photos/400/300?random=1"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "Ebay",
+    "stock": 50,
+    "numOfReviews": 32,
+    "reviews": []
+  },
+  {
+    "name": "CAN USB FD Adapter (GC-CAN-USB-FD)",
+    "price": "315.00",
+    "description": "Monitor a CAN network, write a CAN program and communicate with industrial, medical, automotive or other CAN based device...",
+    "ratings": 1.65,
+    "images": [
+      {
+        "public_id": "products/can_usb_adapter",
+        "url": "https://picsum.photos/400/300?random=2"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "Amazon",
+    "stock": 0,
+    "numOfReviews": 2,
+    "reviews": []
+  },
+  {
+    "name": "CHARMOUNT Full Motion TV Wall Mount Swivel",
+    "price": "26.99",
+    "description": "CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg...",
+    "ratings": 3.5,
+    "images": [
+      {
+        "public_id": "products/tv_wall_mount",
+        "url": "https://picsum.photos/400/300?random=3"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "Amazon",
+    "stock": 1,
+    "numOfReviews": 12,
+    "reviews": []
+  },
+  {
+    "name": "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
+    "price": "299.00",
+    "description": "What happens when you clear away the noisy distractions of the world? Concentration goes to the next level...",
+    "ratings": 4.5,
+    "images": [
+      {
+        "public_id": "products/bose_qc_headphones",
+        "url": "https://picsum.photos/400/300?random=4"
+      }
+    ],
+    "category": "Headphones",
+    "seller": "Amazon",
+    "stock": 11,
+    "numOfReviews": 112,
+    "reviews": []
+  },
+  {
+    "name": "Apple AirPods with Charging Case (Wired)",
+    "price": "126.99",
+    "description": "AirPods with Charging Case: More than 24 hours listening time, up to 18 hours talk time...",
+    "ratings": 4.8,
+    "images": [
+      {
+        "public_id": "products/apple_airpods",
+        "url": "https://picsum.photos/400/300?random=5"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "Amazon",
+    "stock": 122,
+    "numOfReviews": 2671,
+    "reviews": []
+  },
+  {
+    "name": "Cable Boom Microphone - Volume Control for Playstation PS4 or Xbox",
+    "price": "27.99",
+    "description": "DESIGN INFO - 3.5mm male to 2.5mm male audio cable adapter with Upgraded Flexible, Detachable Boom Mic...",
+    "ratings": 4.1,
+    "images": [
+      {
+        "public_id": "products/boom_mic_cable",
+        "url": "https://picsum.photos/400/300?random=6"
+      }
+    ],
+    "category": "Accessories",
+    "seller": "Amazon",
+    "stock": 1123,
+    "numOfReviews": 6,
+    "reviews": []
+  },
+  {
+    "name": "Nikon D3500 W/ AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR Black",
+    "price": "496.95",
+    "description": "You don't need to be a photographer to know a great photo when you see one. And you don't need to be a photographer to take a great photo—you just need the D3500...",
+    "ratings": 4.7,
+    "images": [
+      {
+        "public_id": "products/nikon_d3500_camera",
+        "url": "https://picsum.photos/400/300?random=7"
+      }
+    ],
+    "category": "Cameras",
+    "seller": "Amazon",
+    "stock": 131,
+    "numOfReviews": 222,
+    "reviews": []
+  },
+  {
+    "name": "Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
+    "price": "949.99",
+    "description": "Stunning 13.3-inch Retina display with True Tone technology, Backlit Magic Keyboard and Touch ID, Tenth-generation, Intel Core i3 processor...",
+    "ratings": 4.9,
+    "images": [
+      {
+        "public_id": "products/macbook_air",
+        "url": "https://picsum.photos/400/300?random=8"
+      }
+    ],
+    "category": "Laptops",
+    "seller": "Amazon",
+    "stock": 0,
+    "numOfReviews": 56,
+    "reviews": []
+  },
+  {
+    "name": "Kauffman Orchards Homegrown McIntosh Apples",
+    "price": "2.75",
+    "description": "McIntosh is a pretty red/green apple with white flesh Homegrown in Kauffman's orchard in healthy Lancaster County soil...",
+    "ratings": 5,
+    "images": [
+      {
+        "public_id": "products/mcintosh_apples_1",
+        "url": "https://picsum.photos/400/300?random=9"
+      },
+      {
+        "public_id": "products/mcintosh_apples_2",
+        "url": "https://picsum.photos/400/300?random=10"
+      },
+      {
+        "public_id": "products/mcintosh_apples_3",
+        "url": "https://picsum.photos/400/300?random=11"
+      }
+    ],
+    "category": "Food",
+    "seller": "Kauffman's Fruit Farm & Market",
+    "stock": 500,
+    "numOfReviews": 1,
+    "reviews": []
+  },
+  {
+    "name": "Ninja Foodi 8-in-1 Digital Air Fryer Toaster Oven",
+    "price": "199.99",
+    "description": "The Ninja Foodi Digital Air Fry Oven packs a lot of features and capacity into a small countertop footprint. Air Fry, Air Roast, Air Broil, Bake, Bagel, Toast, Dehydrate...",
+    "ratings": 4.6,
+    "images": [
+      {
+        "public_id": "products/ninja_foodi_oven",
+        "url": "https://picsum.photos/400/300?random=12"
+      }
+    ],
+    "category": "Home Appliances",
+    "seller": "Best Buy",
+    "stock": 35,
+    "numOfReviews": 560,
+    "reviews": []
+  },
+  {
+    "name": "Samsung 50-inch Class Crystal UHD Smart TV",
+    "price": "447.99",
+    "description": "Step up to the Samsung Crystal UHD TV. A crystal-clear picture and vivid color come to life. Dynamic Crystal Color, HDR, Smart TV with Tizen OS.",
+    "ratings": 4.4,
+    "images": [
+      {
+        "public_id": "products/samsung_uhd_tv",
+        "url": "https://picsum.photos/400/300?random=13"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "Walmart",
+    "stock": 15,
+    "numOfReviews": 1200,
+    "reviews": []
+  },
+  {
+    "name": "The Secret Garden by Frances Hodgson Burnett (Hardcover)",
+    "price": "15.50",
+    "description": "A classic of English children's literature. Mary Lennox is sent to live in a large house in the Yorkshire moors...",
+    "ratings": 4.9,
+    "images": [
+      {
+        "public_id": "products/secret_garden_book",
+        "url": "https://picsum.photos/400/300?random=14"
+      }
+    ],
+    "category": "Books",
+    "seller": "Barnes & Noble",
+    "stock": 80,
+    "numOfReviews": 450,
+    "reviews": []
+  },
+  {
+    "name": "Lego Star Wars Millennium Falcon Microfighter",
+    "price": "9.99",
+    "description": "A miniature version of the iconic starship, perfect for quick builds and space battles. Includes a Han Solo minifigure.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "public_id": "products/lego_falcon",
+        "url": "https://picsum.photos/400/300?random=15"
+      }
+    ],
+    "category": "Toys",
+    "seller": "Target",
+    "stock": 300,
+    "numOfReviews": 850,
+    "reviews": []
+  },
+  {
+    "name": "Instant Pot Duo Plus 9-in-1 Electric Pressure Cooker, 6 Quart",
+    "price": "129.95",
+    "description": "The updated Instant Pot Duo Plus is a multi-cooker that quickly pressure cooks, sautés, sous vides, steams, slow cooks, warms, makes yogurt, cakes and sterilizes. Comes with 15 smart programs.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "public_id": "products/instant_pot_duo",
+        "url": "https://picsum.photos/400/300?random=16"
+      }
+    ],
+    "category": "Kitchen",
+    "seller": "Amazon",
+    "stock": 75,
+    "numOfReviews": 15000,
+    "reviews": []
+  },
+  {
+    "name": "Logitech G Pro Mechanical Gaming Keyboard",
+    "price": "109.99",
+    "description": "Designed with esports professionals, this compact tenkeyless keyboard features durable GX Blue Clicky switches and LIGHTSYNC RGB lighting. Detachable cable for easy transport.",
+    "ratings": 4.6,
+    "images": [
+      {
+        "public_id": "products/logitech_keyboard",
+        "url": "https://picsum.photos/400/300?random=17"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "Best Buy",
+    "stock": 45,
+    "numOfReviews": 900,
+    "reviews": []
+  },
+  {
+    "name": "Waterpik Aquarius Water Flosser",
+    "price": "69.99",
+    "description": "The easy and most effective way to floss, the Waterpik Aquarius Water Flosser features 10 pressure settings, 7 water flossing tips, and 90 seconds of water capacity. Clinically proven to remove up to 99.9% of plaque.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "public_id": "products/waterpik_flosser",
+        "url": "https://picsum.photos/400/300?random=18"
+      }
+    ],
+    "category": "Health & Personal Care",
+    "seller": "CVS",
+    "stock": 60,
+    "numOfReviews": 7500,
+    "reviews": []
+  },
+  {
+    "name": "Columbia Men's Watertight II Jacket",
+    "price": "59.99",
+    "description": "A light and durable waterproof jacket ideal for unpredictable weather. Features an Omni-Shield advanced repellency shell, attached adjustable hood, and zippered hand pockets.",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "products/columbia_jacket",
+        "url": "https://picsum.photos/400/300?random=19"
+      }
+    ],
+    "category": "Apparel",
+    "seller": "Macy's",
+    "stock": 90,
+    "numOfReviews": 350,
+    "reviews": []
+  }
 ]
