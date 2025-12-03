@@ -30,8 +30,10 @@ jobs:
       # --- Frontend Build (Đã loại bỏ cd frontend) ---
       - name: Install and Build Frontend
         run: |
-          npm install
-          npm run build # Lệnh build React của bạn (thường tạo ra thư mục 'build')
+         npm install
+          # Cấp quyền thực thi cho tất cả các file trong node_modules/.bin
+          chmod +x ./node_modules/.bin/*
+          npm run build
         working-directory: ./frontend # Chỉ dùng working-directory
       
       # Upload thư mục build của Frontend để sử dụng trong job Deploy
